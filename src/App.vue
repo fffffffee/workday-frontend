@@ -65,7 +65,7 @@
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 // 导入 Element Plus 图标 (已在 main.js 中全局注册，这里仅用于模板)
-import { Calendar, Setting, User, Management, DataLine, Stamp } from '@element-plus/icons-vue';
+import { Calendar, Setting, User, Management, DataLine, Stamp, Plus} from '@element-plus/icons-vue';
 
 const route = useRoute();
 
