@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { resolveDirective } from "vue";
 import EmployeeList from '../views/EmployeeList.vue';
 import ProjectList from '../views/ProjectList.vue';
+import WorkDayRecord from '../views/WorkDayRecord.vue';
 
 const routes = [
     {
@@ -21,6 +22,12 @@ const routes = [
         name: 'Projects',
         component: ProjectList,
         meta: { title: '项目管理' }
+    },
+    {
+        path: '/workdayrecords',
+        name: 'WorkDayRecords',
+        component: WorkDayRecord,
+        meta: { title: '工天录入' }
     }
     // Add more routes as needed
 ]
