@@ -34,6 +34,10 @@
             <el-icon><Management /></el-icon>
             <span>项目管理</span>
           </el-menu-item>
+          <el-menu-item index="/workdayrecords">
+            <el-icon><Management /></el-icon>
+            <span>工天录入</span>
+          </el-menu-item>
         </el-sub-menu>
 
         <el-menu-item index="/reports">
